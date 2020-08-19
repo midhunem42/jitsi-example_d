@@ -36,7 +36,7 @@ function JitsiMeetComponent() {
       api.addEventListener("videoConferenceJoined", () => {
         console.log("Local User Joined");
         setLoading(false);
-        api.executeCommand("displayName", "MyName2");
+        api.executeCommand("displayName", "MyName");
       });
     } catch (error) {
       console.error("Failed to load Jitsi API", error);
